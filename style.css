@@ -1,0 +1,14 @@
+body {
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #151f28;
+    margin-bottom: 0px;
+}
+
+#jumbotron-home {
+    background-image: url("img/brand/artworkingguy-banner.png");
+    background-size: cover;
+    min-height: 480px;
+}
