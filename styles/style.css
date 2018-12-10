@@ -1,0 +1,49 @@
+body {
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #151f28;
+    margin-bottom: 0px;
+}
+
+
+/* WELCOME */
+
+#jumbotron-home {
+    background-image: url("/img/brand/artworkingguy-banner.png");
+    background-size: cover;
+    min-height: 480px;
+}
+
+
+/* SERVICES */
+
+#services .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.services-slider .jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 15px;
+    min-height: 300px;
+}
+
+.services-slide-1 {
+    background-image: url("/img/services/company-identity/company-identity-banner.png");   
+}
+
+.services-slide-2 {
+    background-image: url("/img/services/technical-communication/technical-communication-banner.png");
+}
+
+.services-slide-3 {
+    background-image: url("/img/services/theatrical/theatrical-banner.png");
+}
+
+.services-slide-4 {
+    background-image: url("/img/services/ui-design/ui-design-banner.png");
+}

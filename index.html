@@ -5,15 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/plugins/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/plugins/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/scripts/slider.js"></script>
 
     <title>ArtWorkingGuy.ca - Home</title>
 </head>
@@ -49,6 +57,7 @@
 
     <!-- Weclome -->
     <section id="welcome">
+
         <!-- Banner -->
         <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
             <div class="container">
@@ -72,11 +81,38 @@
     <section id="services">
         <div class="container-fluid py-4">
             <div class="row">
-                <div class="col text-center">
-                    [ Services Slider Placeholder ]
+                <div class="col services-slider">
+
+                    <!-- Company Identity slide -->
+                    <div class="services-slide-1 jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-5">Company Identity</h1>
+                        </div>
+                    </div>
+
+                    <!-- Technical Communication slide -->
+                    <div class="services-slide-2 jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-5">Technical Communication</h1>
+                        </div>
+                    </div>
+
+                    <!-- Theatrical slide -->
+                    <div class="services-slide-3 jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-5">Theatrical</h1>
+                        </div>
+                    </div>
+
+                    <!-- UI Design slide -->
+                    <div class="services-slide-4 jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-5">UI Design</h1>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- About -->
@@ -88,11 +124,15 @@
                 </div>
             </div>
             <div class="row">
+
+                <!-- About Glen -->
                 <div class="col-sm-6">
                     <h2>Art for all industries</h2>
                     <p>Aerospace, agricultural, forestry, food, entertainment, mining, real estate, rapid
                         transportation, packaging, and everything else!</p>
                 </div>
+
+                <!-- Past clients -->
                 <div class="col-sm-6">
                     <h2>From Winnipeg to the World!</h2>
                     <h3>Local and international featured art</h3>
