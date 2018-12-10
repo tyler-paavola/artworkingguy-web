@@ -15,7 +15,12 @@ footer {
 #jumbotron-home {
     background-image: url("/img/brand/artworkingguy-banner.png");
     background-size: cover;
-    min-height: 480px;
+    min-height: 500px;
+    color: white;
+}
+
+#jumbotron-home p {
+    font-size: 1.5rem;
 }
 
 
@@ -26,7 +31,7 @@ footer {
 }
 
 #services a:link, #services a:visited {
-    color: #fefefe;
+    color: white;
 }
   
 #services a:hover {
