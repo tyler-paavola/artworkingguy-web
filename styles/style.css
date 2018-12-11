@@ -74,3 +74,9 @@ footer {
 .services-slide-4 {
     background-image: url("/img/services/ui-design/ui-design-banner.png");
 }
+
+
+/* CONTACT */
+#contact {
+    background-color: #f3f3f3
+}
