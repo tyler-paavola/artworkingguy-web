@@ -13,11 +13,14 @@ footer {
 
 
 /* WELCOME */
-#jumbotron-home {
-    background-image: url("/img/brand/artworkingguy-banner.png");
+.jumbotron-banner {
     background-size: cover;
     min-height: 500px;
     color: white;
+}
+
+#jumbotron-home {
+    background-image: url("/img/brand/artworkingguy-banner.png");
 }
 
 #jumbotron-home p {
@@ -25,7 +28,7 @@ footer {
 }
 
 
-/* SERVICES */
+/* SERVICES SLIDER */
 #services .col {
     padding-left: 0;
     padding-right: 0;
@@ -76,7 +79,52 @@ footer {
 }
 
 
-/* CONTACT */
-#contact {
-    background-color: #f3f3f3
+/* DARK SECTIONS */
+#contact, #technical-illustration, #technical-manuals {
+    background-color: #f3f3f3;
+}
+
+
+/* SERVICES */
+#jumbotron-technical-communication {
+    background-image: url("/img/services/technical-communication/technical-communication-banner.png");
+}
+
+#jumbotron-technical-communication h1 {
+    background-color: #151f28;
+    opacity: 0.7;
+}
+
+@media (max-width: 340px) {  
+    .jumbotron-service h1 {
+        font-size: 1.6rem;
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+    }
+}
+
+@media (min-width: 340px) and (max-width: 576px) {  
+    .jumbotron-service h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 576px) and (max-width: 648px)  {  
+    .jumbotron-service h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 648px) and (max-width: 993px) {  
+    .jumbotron-service h1 {
+        font-size: 4rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 993px) and (max-width: 1200px) {  
+    .jumbotron-service h1 {
+        font-size: 4.5rem;
+    }
 }
