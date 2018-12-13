@@ -84,11 +84,6 @@ footer {
     background-color: #f3f3f3;
 }
 
-.service .border {
-    border-width: 8px !important;
-    border-color: #b3b3b3 !important;
-}
-
 
 /* SERVICES */
 #jumbotron-technical-communication {
@@ -98,6 +93,16 @@ footer {
 #jumbotron-technical-communication h1 {
     background-color: #151f28;
     opacity: 0.7;
+}
+
+.service .border {
+    border-width: 8px !important;
+    border-color: #b3b3b3 !important;
+}
+
+.service .row div {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 @media (max-width: 340px) {  
