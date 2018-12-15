@@ -95,9 +95,9 @@ footer {
     background-image: url("/img/services/technical-communication/technical-communication-banner.png");
 }
 
-#jumbotron-technical-communication h1 {
+.jumbotron-service h1 {
     background-color: #151f28;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .service .border {
