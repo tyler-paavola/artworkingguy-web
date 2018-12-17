@@ -89,7 +89,7 @@ footer {
 
 
 /* DARK SECTIONS */
-#contact, #technical-illustration, #technical-manuals {
+#contact, #technical-illustration, #technical-manuals, .section-dark {
     background-color: #f3f3f3;
 }
 
@@ -114,6 +114,23 @@ footer {
     padding-right: 0px !important;
 }
 
+
+/* SERVICE CTA */
+.alert {
+    margin-bottom: 0;
+}
+
+.alert button {
+    background-color: #ffcd00 !important;
+    border: none !important;
+}
+.alert button:hover, .alert button:active, .alert button:focus {
+    background-color: #ffd633 !important;
+    border: none !important;
+}
+
+
+/* DISPLAY BREAKPOINTS */
 @media (max-width: 340px) {
     .standout-shadow-title {
         font-size: 4.3rem;
@@ -136,7 +153,6 @@ footer {
     }
 }
 
-/* Small devices (landscape phones, 544px and up) */
 @media (min-width: 576px) and (max-width: 648px)  {  
     .jumbotron-service h1 {
         font-size: 3rem;
@@ -149,7 +165,6 @@ footer {
     }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 993px) and (max-width: 1200px) {  
     .jumbotron-service h1 {
         font-size: 4.5rem;
