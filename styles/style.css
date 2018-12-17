@@ -89,7 +89,7 @@ footer {
 
 
 /* DARK SECTIONS */
-#contact, #identity, #packaging, #technical-illustration, #technical-manuals, #murals, .section-dark {
+#contact, #identity, #packaging, #technical-illustration, #technical-manuals, #murals, #virtual-ui, .section-dark {
     background-color: #f3f3f3;
 }
 
@@ -105,6 +105,10 @@ footer {
 
 #jumbotron-theatrical {
     background-image: url("/img/services/theatrical/theatrical-banner.png");
+}
+
+#jumbotron-ui-design {
+    background-image: url("/img/services/ui-design/ui-design-banner.png");
 }
 
 .jumbotron-service h1 {
