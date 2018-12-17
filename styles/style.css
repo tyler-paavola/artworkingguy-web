@@ -89,7 +89,7 @@ footer {
 
 
 /* DARK SECTIONS */
-#contact, #identity, #packaging, #technical-illustration, #technical-manuals, .section-dark {
+#contact, #identity, #packaging, #technical-illustration, #technical-manuals, #murals, .section-dark {
     background-color: #f3f3f3;
 }
 
@@ -101,6 +101,10 @@ footer {
 
 #jumbotron-technical-communication {
     background-image: url("/img/services/technical-communication/technical-communication-banner.png");
+}
+
+#jumbotron-theatrical {
+    background-image: url("/img/services/theatrical/theatrical-banner.png");
 }
 
 .jumbotron-service h1 {
