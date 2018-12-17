@@ -4,6 +4,10 @@ body {
     position: relative;
 }
 
+body p, li {
+    font-weight: 300;
+}
+
 
 /* FOOTER */
 footer {
