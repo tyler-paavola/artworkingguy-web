@@ -89,12 +89,16 @@ footer {
 
 
 /* DARK SECTIONS */
-#contact, #technical-illustration, #technical-manuals, .section-dark {
+#contact, #identity, #packaging, #technical-illustration, #technical-manuals, .section-dark {
     background-color: #f3f3f3;
 }
 
 
 /* SERVICES */
+#jumbotron-company-identity {
+    background-image: url("/img/services/company-identity/company-identity-banner.png");
+}
+
 #jumbotron-technical-communication {
     background-image: url("/img/services/technical-communication/technical-communication-banner.png");
 }

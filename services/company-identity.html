@@ -1,12 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/plugins/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.5/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/plugins/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/scripts/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.5/dist/jquery.fancybox.min.js"></script>
+
     <title>ArtWorkingGuy.ca - Company Identity</title>
 </head>
+
 <body>
-    
+
+    <!-- Navigation -->
+    <nav id="navbar-root" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="/index.html">
+            <img src="/img/brand/artworkingguy-logo.png" width="auto" height="100" alt="ArtWorkingGuy logo">
+        </a>
+
+        <!-- Mobile navigation toggle -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link mr-lg-2 mr-xl-4 active" href="/services/company-identity.html">Company
+                    Identity</a>
+                <a class="nav-item nav-link mr-lg-2 mr-xl-4" href="/services/technical-communication.html">Technical
+                    Communication</a>
+                <a class="nav-item nav-link mr-lg-2 mr-xl-4" href="/services/theatrical.html">Theatrical</a>
+                <a class="nav-item nav-link mr-lg-2 mr-xl-4" href="/services/ui-design.html">UI Design</a>
+                <a class="nav-item nav-link mr-lg-2 mr-xl-4" href="/index.html#about">About</a>
+                <a class="nav-item nav-link" href="/index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Weclome -->
+    <section id="welcome">
+
+        <!-- Banner -->
+        <div class="jumbotron jumbotron-fluid jumbotron-banner jumbotron-service d-flex align-items-center mb-0" id="jumbotron-company-identity">
+            <div class="container">
+                <h1 class="display-1 p-4 text-center">Company Identity</h1>
+            </div>
+        </div>
+
+        <!-- Services motto -->
+        <div class="container-fluid py-5">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4">Striking and impactful graphics</h1>
+                    <hr class="m-4 d-block d-md-none">
+                    <h3 class="font-weight-normal">Business cards, logos, print materials,
+                        signage, user interfaces, displays, websites, packaging + branding</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Identity -->
+    <section id="identity" class="service">
+        <div class="container-fluid py-5">
+
+            <!-- Title -->
+            <div class="d-flex col align-items-center">
+                <div>
+                    <h2 class="display-5 font-weight-light">Your Identity</h2>
+                </div>
+                <div class="flex-grow-1 pl-4">
+                    <hr>
+                </div>
+            </div>
+
+            <!-- Description -->
+            <div class="d-flex col">
+                <p class="lead">Develop a new identity or upgrade your present identity for a striking visual image in
+                    your industry and market!</p>
+            </div>
+
+            <!-- Gallery -->
+            <div class="row justify-content-center">
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/identity/identity-beaches-roofing-exterior.png">
+                        <img src="/img/services/company-identity/identity/identity-beaches-roofing-exterior.png" alt=""
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/identity/identity-deluca-fine-wines.png">
+                        <img src="/img/services/company-identity/identity/identity-deluca-fine-wines.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/identity/identity-euroway-industrial-service.png">
+                        <img src="/img/services/company-identity/identity/identity-euroway-industrial-service.png" alt=""
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/identity/identity-flanders-cookie-company.png">
+                        <img src="/img/services/company-identity/identity/identity-flanders-cookie-company.png" alt=""
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/identity/identity-sandhill-pines.png">
+                        <img src="/img/services/company-identity/identity/identity-sandhill-pines.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logos -->
+    <section id="logos" class="service">
+        <div class="container-fluid py-5">
+
+            <!-- Title -->
+            <div class="d-flex col align-items-center">
+                <div>
+                    <h2 class="display-5 font-weight-light">Logos</h2>
+                </div>
+                <div class="flex-grow-1 pl-4">
+                    <hr>
+                </div>
+            </div>
+
+            <!-- Description -->
+            <div class="d-flex col">
+                <p class="lead">Designing logos for companies, clubs, organizations, and teams for an impactful visual
+                    identity.</p>
+            </div>
+
+            <!-- Gallery -->
+            <div class="row justify-content-center">
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/logos/logos-1.png">
+                        <img src="/img/services/company-identity/logos/logos-1.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/logos/logos-2.png">
+                        <img src="/img/services/company-identity/logos/logos-2.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/logos/logos-3.png">
+                        <img src="/img/services/company-identity/logos/logos-3.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/logos/logos-4.png">
+                        <img src="/img/services/company-identity/logos/logos-4.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/logos/logos-5.png">
+                        <img src="/img/services/company-identity/logos/logos-5.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/logos/logos-6.png">
+                        <img src="/img/services/company-identity/logos/logos-6.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Manuals -->
+    <section id="packaging" class="service">
+        <div class="container-fluid py-5">
+
+            <!-- Title -->
+            <div class="d-flex col align-items-center">
+                <div>
+                    <h2 class="display-5 font-weight-light">Packaging</h2>
+                </div>
+                <div class="flex-grow-1 pl-4">
+                    <hr>
+                </div>
+            </div>
+
+            <!-- Description -->
+            <div class="d-flex col">
+                <p class="lead">Designing logos for companies, clubs, organizations, and teams for an impactful visual
+                    identity.</p>
+            </div>
+
+            <!-- Gallery -->
+            <div class="row justify-content-center">
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/packaging/packaging-barley-carton-pallet-pattern.png">
+                        <img src="/img/services/company-identity/packaging/packaging-barley-carton-pallet-pattern.png"
+                            alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/packaging/packaging-belgian-cookies-box.png">
+                        <img src="/img/services/company-identity/packaging/packaging-belgian-cookies-box.png" alt=""
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/packaging/packaging-dvd-cover.png">
+                        <img src="/img/services/company-identity/packaging/packaging-dvd-cover.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/packaging/packaging-gondola-pizza-box.png">
+                        <img src="/img/services/company-identity/packaging/packaging-gondola-pizza-box.png" alt=""
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/packaging/packaging-mckenzie-potato-box.png">
+                        <img src="/img/services/company-identity/packaging/packaging-mckenzie-potato-box.png" alt=""
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/packaging/packaging-peak-of-the-market-potato-sack-label.png">
+                        <img src="/img/services/company-identity/packaging/packaging-peak-of-the-market-potato-sack-label.png"
+                            alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/packaging/packaging-sunflower-seeds-bag.png">
+                        <img src="/img/services/company-identity/packaging/packaging-sunflower-seeds-bag.png" alt=""
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-lg-3 m-2 border">
+                    <a data-fancybox="gallery" href="/img/services/company-identity/packaging/packaging-teachers-crate-shipping-carton.png">
+                        <img src="/img/services/company-identity/packaging/packaging-teachers-crate-shipping-carton.png"
+                            alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section-dark">
+        <div class="container pb-5">
+            <div class="alert alert-dark text-center" role="alert">
+                <h4 class="display-4">Let's get started!</h4>
+                <p>Contact me today at <a href="tel:1-204-471-5096">(204) 471-5096</a> or use my <a href="/index.html#contact-form">online
+                        form</a> to get started!</p>
+                <button type="button" class="btn btn-light mb-2"><i class="far fa-hand-point-right"></i> Request a free
+                    consultation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container text-light">
+            <div class="row">
+                <div class="col col-md-6">Glen Paavola<br />glen@artworkingguy.ca</div>
+                <div class="col col-md-6 text-right">Free consultation</div>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
