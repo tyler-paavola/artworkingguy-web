@@ -136,11 +136,11 @@ footer {
     margin-bottom: 0;
 }
 
-.alert button {
+.alert .btn {
     background-color: #ffcd00 !important;
     border: none !important;
 }
-.alert button:hover, .alert button:active, .alert button:focus {
+.alert .btn:hover, .alert .btn:active, .alert .btn:focus {
     background-color: #ffd633 !important;
     border: none !important;
 }
