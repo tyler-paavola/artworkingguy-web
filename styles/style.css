@@ -176,6 +176,12 @@ footer {
         text-align: center;
     }
 }
+        
+@media (max-width: 388px) {
+    .navbar-toggler {
+        margin: 8px 0px 4px 0px !important;
+    }
+}
 
 @media (min-width: 340px) and (max-width: 576px) {  
     .standout-shadow-title {
