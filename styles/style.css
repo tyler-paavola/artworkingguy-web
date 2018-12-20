@@ -19,6 +19,20 @@ footer {
     margin-bottom: 0px;
 }
 
+.footer-small {
+    font-size: 0.8rem;
+}
+
+.footer-large {
+    font-size: 1.5rem;
+}
+
+
+/* COLOURS */
+.awg-yellow a:link, .awg-yellow a:visited, .awg-yellow a:hover, .awg-yellow a:active {
+    color: #ffcd00 !important;
+}
+
 
 /* WELCOME */
 .jumbotron-banner {
@@ -157,6 +171,10 @@ footer {
         padding-left: 0.5em !important;
         padding-right: 0.5em !important;
     }
+
+    footer p {
+        text-align: center;
+    }
 }
 
 @media (min-width: 340px) and (max-width: 576px) {  
@@ -167,6 +185,10 @@ footer {
     .jumbotron-service h1 {
         font-size: 2.8rem;
     }
+
+    footer p {
+        text-align: center;
+    }   
 }
 
 @media (min-width: 576px) and (max-width: 648px)  {  
